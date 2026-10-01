@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.5; }
+.site-header, footer { padding: 1rem; }
+.site-header nav { display:flex; gap:1rem; flex-wrap:wrap; }
+.page { padding:1rem; }
+.cards { display:flex; gap:1rem; flex-wrap:wrap; }
+.card { flex:1 1 220px; padding:1rem; border:1px solid #bbb; border-radius:.75rem; }
+.dark { background:#222; color:#f7f7f7; }
+@media (min-width: 768px) { .page { max-width:1100px; margin:auto; } }
